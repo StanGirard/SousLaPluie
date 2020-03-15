@@ -1,7 +1,7 @@
 {
-  "name": "cycom",
-  "description": "Cycom Theme",
-  "demo": "https://primates.dev",
+  "name": "souslapluie",
+  "description": "Sous La Pluie Theme",
+  "demo": "https://souslapluie.fr",
   "version": "0.3.3",
   "engines": {
     "ghost": ">=3.0.0",
@@ -13,8 +13,8 @@
   },
   "author": {
     "name": "Stan Girard",
-    "email": "stan@primates.dev",
-    "url": "https://primates.dev"
+    "email": "contact@souslapluie.fr",
+    "url": "https://souslapluie.fr"
   },
   "gpm": {
     "type": "theme",
@@ -31,11 +31,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/StanGirard/Cycom/"
+    "url": "https://github.com/StanGirard/Souslapluie/"
   },
   "bugs": {
-    "url": "https://github.com/StanGirard/Cycom/issues",
-    "email": "stan@primates.dev"
+    "url": "https://github.com/StanGirard/Souslapluie/issues",
+    "email": "contact@souslapluie.fr"
   },
   "config": {
     "posts_per_page": 18,
