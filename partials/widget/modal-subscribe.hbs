@@ -12,7 +12,18 @@
                 <use xlink:href="#icon-close"></use>
             </svg>
         </span>
+        <h4 class="m-subscribe-title u-fontSizeLarger u-marginBottom20 u-contentTitle u-fontWeightSemibold">
+            {{t "Devenir auteur"}}</h4>
+        <p class="m-subscribe-des u-fontSizeSmall u-textMuted u-marginBottom20">
+            {{t "Envoie un mail à contact@souslapluie.fr et nous t'expliquerons la marche à suivre
+"}}</p>
 
+        <form method="post" action="mailto:contact@souslapluie.fr?subject=Devenir auteur">
+            <button id="m-subscribe-btn" class="button button--primary u-sizeFullWidth u-fontWeightMedium">
+                <span class="button-text u-fontSizeBase">{{t "Envoyer un email"}}</span>
+            </button>
+        </form>
+        <hr class="rounded">
         <h4 class="m-subscribe-title u-fontSizeLarger u-marginBottom20 u-contentTitle u-fontWeightSemibold">
             {{t "Inscription à la Newsletter"}}</h4>
         <p class="m-subscribe-des u-fontSizeSmall u-textMuted u-marginBottom20">
@@ -34,17 +45,7 @@
             <div class="message-error u-textColorWhite u-marginTop20 u-hide">{{t "Please enter a valid email address!"}}
             </div>
         </form>
-        <hr class="rounded">
-        <h4 class="m-subscribe-title u-fontSizeLarger u-marginBottom20 u-contentTitle u-fontWeightSemibold">
-            {{t "Devenir auteur"}}</h4>
-        <p class="m-subscribe-des u-fontSizeSmall u-textMuted u-marginBottom20">
-            {{t "Envoie nous un mail avec tes motivations à contact@souslapluie.fr"}}</p>
-
-        <form method="post" action="mailto:contact@souslapluie.fr?subject=Devenir auteur">
-            <button id="m-subscribe-btn" class="button button--primary u-sizeFullWidth u-fontWeightMedium">
-                <span class="button-text u-fontSizeBase">{{t "Envoyer un email"}}</span>
-            </button>
-        </form>
+        
     </div>
 </aside>
 
