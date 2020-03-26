@@ -5,8 +5,8 @@
 {{#contentFor "special_body_class"}}{{#is "home"}}is-home{{/is}} is-frontpage{{/contentFor}}
 
 {{!-- Featured Story --}}
-{{#get "posts" filter="featured:true" limit="1" as |godo_featured_post| }}
-    {{#if godo_featured_post}} {{#foreach godo_featured_post}}{{> "story/story-featured"}} {{/foreach}}{{/if}}
+{{#get "posts" filter="featured:true" limit="1" as |antidote_featured_post| }}
+    {{#if antidote_featured_post}} {{#foreach antidote_featured_post}}{{> "story/story-featured"}} {{/foreach}}{{/if}}
 {{/get}}
 
 <div class="site-post feed-entry-content">

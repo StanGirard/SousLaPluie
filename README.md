@@ -1,88 +1,10 @@
-# Simply free theme for [Ghost](https://github.com/tryghost/ghost/)
-
-[![Ghost version](https://img.shields.io/badge/Ghost-3.x-brightgreen.svg)](https://github.com/TryGhost/Ghost)
-[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg)](https://www.paypal.me/godofredoninja)
-[![Buy Me A Coffee](https://img.shields.io/badge/-Buy%20Me%20A%20Coffee-%23FF813F)](https://www.buymeacoffee.com/GodoFredoNinja)
+# Sous La Pluie
 
 
-Hello :smile: , I created this theme for Ghost with inspiration from [Medium](https://medium.com/).
-It is available for free so you can use on your site. If you have any suggestions to improve the theme,  you can send me a tweet [@GodoFredoNinja](https://goo.gl/y3aivK)
 
-## If you have a :heart: and value my work. :pray: Please, help me with a small donation on [Paypal](https://www.paypal.me/godofredoninja) or [Here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Y7UB5Q8GVN3HN&source=url). It'll help motivate me to update the theme with many improvements
+## Web Browser Support for Sous La Pluie
 
-[![donate](./donate.gif)](https://www.paypal.me/godofredoninja)
-
-:arrow_right: If you still don't have a **Hosting for your Ghost**. Use [Digital Ocean](https://m.do.co/c/710a27a3b3de) using my [referral link]((https://m.do.co/c/710a27a3b3de)) and you will get free a **$50 credit** to use in [Digital Ocean]((https://m.do.co/c/710a27a3b3de)). This way you will also be helping me.
-
-[![Simply free theme for ghost](./screenshot.jpg)](https://godofredo.ninja)
-
-## Demo
-
-You can see Simply in action on my Page [Demo](https://godofredo.ninja)
-
-If for some reason I'm using a theme other than simply. then you can see the screenshots in [behance](http://bit.ly/simply-from-github-to-behance)
-
-## Featured
-
-- Support for different [languages](http://themes.ghost.org/docs/i18n#section-how-to-add-any-language) (en - es - de - tr - fr-CA - ru)
-- Light Mode / Dark Mode
-- [AMP](https://github.com/godofredoninja/Hodor-AMP-Ghost) Template
-- Very fast search engine
-- Related Articles (6 articles)
-- Different templates for the Home Page
-- Different templates for publishing posts
-- Include Google Analytics Tracking use (Google Tag Manager)
-- Page for (Contact - Podcast - Tags - Authors - Newsletter)
-- Previous and next Post
-- YouTube Subscribe Button in video post Format
-- Social Media
-- Instagram Feed in footer of Post
-- Page 404 (Multiple faces emoticons)
-- Pagination Infinite Scroll
-- Support Disqus comments
-- Buttons to share Post
-- YouTube, Vimeo, kickstarter, dailymotion => Responsive
-- Varied colors to change the look of the theme
-- Lazy load Image for better performance only in backgrounds
-- Code syntax [Prismjs](http://prismjs.com/index.html#languages-list) Supported all syntax.
-
-## Table of Contents
-
-- [Web Browser Support for Simply](#web-browser-support-for-simply)
-- [Ghost Settings](#ghost-settings)
-- [Simply Settings](#simply-settings)
-  - [Social Media](#1-social-media)
-  - [YouTube Subscribe Button](#2-youtube-subscribe-button)
-  - [Instagram](#3-instagram)
-  - [Comments](#4-comments)
-  - [Search](#5-search)
-- [Home](#home-page)
-  - [Default](#home-page)
-  - [Featured](#home-page)
-  - [Medium](#home-page)
-  - [Sidebar](#home-page)
-  - [Grid](#home-page)
-- [Post](#post-format)
-  - [Default Post](##post-format)
-  - [Post Image](##post-format)
-  - [Post Video](##post-format)
-  - [Post Not Image](##post-format)
-- [Page](#page)
-  - [Contact](#contact-page)
-  - [Newsletter](#newsletter-page)
-- [Archive](#authors-page)
-  - [Authors](#authors-page)
-  - [Tags](#tags-page)
-  - [Podcast](#podcast-page)
-- [Theme Translation](#theme-translation)
-- [AMP](#amp)
-- [Change Theme Color](#change-theme-color)
-- [Tracking Google Tag Mananger](#tracking-google-tag-mananger)
-- [PrismJS code syntax](#prismjs-code-syntax)
-
-## Web Browser Support for Simply
-
-Simply supports the following web [browsers](http://caniuse.com/#search=flexbox).
+Sous La Pluie supports the following web [browsers](http://caniuse.com/#search=flexbox).
 
 ## Ghost Settings
 
@@ -90,9 +12,9 @@ Enable the following checkbox on the Labs page in the Ghost admin panel.
 
 ![ghost labs](./documentation/ghost-settings.jpg)
 
-## Simply Settings
+## Sous La Pluie Settings
 
-> You don't have to add all the Simply configurations. only the ones you need
+> You don't have to add all the Sous La Pluie configurations. only the ones you need
 
 ### 1. Social Media
 
@@ -246,7 +168,7 @@ First, you will need to get your account `userName` and `userId` and `accessToke
 
 ### 4. Comments
 
-Simply supports Disqus comments
+Sous La Pluie supports Disqus comments
 
 — First, you will need to get your account `disqusShortName`
 
@@ -265,7 +187,7 @@ var disqusShortName = 'YOUR_DISQUS_SHORTCUT_HERE';
 **Setup a Custom integration**
 
 1. Go in your Ghost's `dashboard -> Integrations -> Add custom integration`
-2. Set a name: `GodoFredo Themes Search`
+2. Set a name: `antidoteFredo Themes Search`
 3. Get the Content API Key and replace the demo key with this one
 4. Get the admin domain. This will be different in some cases
 
@@ -312,20 +234,20 @@ var searchSettings = {
 </script>
 ```
 
-The search engine that includes Simply is very powerful, supports almost all languages and you can customize to your liking.
+The search engine that includes Sous La Pluie is very powerful, supports almost all languages and you can customize to your liking.
 
 Read more about the search engine [Read More](https://github.com/HauntedThemes/ghost-search)
 
 ## Home Page
 
-> Simply - come with 4 Home page with different layout options
+> Sous La Pluie - come with 4 Home page with different layout options
 
 - First back up your routes in your ghost settings `Labs -> Routes -> Download current routes.yml`
 - Re-download the Route and edit `routes.yml` line `collections -> template`
   - `index` — **Default**
-  - `godo-template-featured` — **With Featured Post**
-  - `godo-template-sidebar` — **Right Sidebar**
-  - `godo-template-grid` — **Grid 3 Cols**
+  - `antidote-template-featured` — **With Featured Post**
+  - `antidote-template-sidebar` — **Right Sidebar**
+  - `antidote-template-grid` — **Grid 3 Cols**
 - Once you have chosen save the file and upload again
 - If do not observe changes restart ghost
 
@@ -336,19 +258,19 @@ collections:
   /:
     permalink: /{slug}/
     template:
-      # - godo-template-grid
-      # - godo-template-featured
-      # - godo-template-sidebar
+      # - antidote-template-grid
+      # - antidote-template-featured
+      # - antidote-template-sidebar
       - index
 ```
 
-[![Simply home page theme for ghost](./documentation/home-page.jpg)](https://www.behance.net/gallery/89129849/Simply-Home-Page-free-theme-for-Ghost)
+[![Sous La Pluie home page theme for ghost](./documentation/home-page.jpg)](https://www.behance.net/gallery/89129849/Simply-Home-Page-free-theme-for-Ghost)
 
-[![Simply home page theme for ghost styles](./documentation/home-page-2.jpeg)](https://www.behance.net/gallery/89129849/Simply-Home-Page-free-theme-for-Ghost)
+[![Sous La Pluie home page theme for ghost styles](./documentation/home-page-2.jpeg)](https://www.behance.net/gallery/89129849/Simply-Home-Page-free-theme-for-Ghost)
 
 ## Post Format
 
-Simply has different templates for post formats. I will mention some of them.
+Sous La Pluie has different templates for post formats. I will mention some of them.
 
 ![ghost post format](./documentation/post-format.png)
 
@@ -400,7 +322,7 @@ Simply has different templates for post formats. I will mention some of them.
 :arrow_right: Add your content and the contact form code using [FORMSPREE](https://formspree.io/) as a service. Please check the code example below.
 
 ```html
-<form action="https://formspree.io/hello@godofredo.ninja" class="u-marginBottom40 u-marginAuto u-maxWidth740" method="POST">
+<form action="https://formspree.io/hello@antidotefredo.ninja" class="u-marginBottom40 u-marginAuto u-maxWidth740" method="POST">
     <div class="row">
         <div class="col s12 m6 u-marginBottom30">
             <input name="name" type="text" placeholder="Your Name" required>
@@ -446,8 +368,8 @@ Simply has different templates for post formats. I will mention some of them.
         </div>
         <h4 class="pae-title">EMAIL</h4>
         <div class="pae-des u-fontSizeBase">
-            <p>hello@godofredo.ninja</p>
-            <p>test@godofredo.ninja</p>
+            <p>hello@antidotefredo.ninja</p>
+            <p>test@antidotefredo.ninja</p>
         </div>
     </div>
 </div>
@@ -476,14 +398,14 @@ Simply has different templates for post formats. I will mention some of them.
 Example: `<form action="https://ninja.us10.list-manage.com/subscribe/post?u=5c52d5a541f6ab2e8d6020e82&id=f5f6d462c4">`
 
 ```html
-<!-- <godo-nesletter> Mailchimp -->
-<div class="godo-ne">
+<!-- <antidote-nesletter> Mailchimp -->
+<div class="antidote-ne">
   <!-- Replace => Action -->
-  <form id="godo-form" class="godo-ne-form" action="YOUR_URL_OF_LIST_Mailchimp" method="post" target="_blank">
+  <form id="antidote-form" class="antidote-ne-form" action="YOUR_URL_OF_LIST_Mailchimp" method="post" target="_blank">
       <label for="fieldEmail">Email Address</label>
-      <div class="godo-ne-form-group">
-        <input id="fieldEmail" class="godo-ne-input" name="EMAIL" type="email" placeholder="yourname@example.com" required="">
-        <button class="godo-ne-button button" type="submit">Subscribe</button>
+      <div class="antidote-ne-form-group">
+        <input id="fieldEmail" class="antidote-ne-input" name="EMAIL" type="email" placeholder="yourname@example.com" required="">
+        <button class="antidote-ne-button button" type="submit">Subscribe</button>
       </div>
       <small>No marketing campaigns. No jibber jabber. Unsubscribe anytime.</small>
   </form>
@@ -493,26 +415,26 @@ Example: `<form action="https://ninja.us10.list-manage.com/subscribe/post?u=5c52
 - **Testimonies** Copy the code and paste into an `HTML` section in Ghost
 
 ```html
-<div class="godo-n-q">
+<div class="antidote-n-q">
 
-  <div class="godo-n-q-i">
+  <div class="antidote-n-q-i">
     <img src="/assets/images/avatar.png" alt="Hello">
     <h3>Tim Cook</h3>
-    <div class="godo-n-q-d">CEO, Apple</div>
+    <div class="antidote-n-q-d">CEO, Apple</div>
     <blockquote>"This is a pretty fantastic newsletter tbh, I definitely recommend it"</blockquote>
   </div>
 
-  <div class="godo-n-q-i u-hide-before-md">
+  <div class="antidote-n-q-i u-hide-before-md">
     <img src="/assets/images/avatar.png" alt="Hello">
     <h3>Satya Nadella</h3>
-    <div class="godo-n-q-d">CEO, Microsoft</div>
+    <div class="antidote-n-q-d">CEO, Microsoft</div>
     <blockquote>"Finally, this newsletter is something we can really agree on"</blockquote>
   </div>
 
-  <div class="godo-n-q-i u-hide-before-md">
+  <div class="antidote-n-q-i u-hide-before-md">
     <img src="/assets/images/avatar.png" alt="Hello">
     <h3>John O'Nolan</h3>
-    <div class="godo-n-q-d">CEO, Ghost</div>
+    <div class="antidote-n-q-d">CEO, Ghost</div>
     <blockquote>"I should really get around to organising some quotes one of these days"</blockquote>
   </div>
 
@@ -541,7 +463,7 @@ routes:
     data:
       post: page.podcast
     limit: 10
-    template: godo-podcast
+    template: antidote-podcast
 ```
 
 - In an `HTML` block in your ghost editor add this code for your content.
@@ -575,7 +497,7 @@ routes:
 
 ## Theme Translation
 
-**Simply supports:**
+**Sous La Pluie supports:**
 
 - `en` — English default language
 - `es` — Español
@@ -584,7 +506,7 @@ routes:
 - `fr-CA` — Canadian French - By [Pascal Andy](https://github.com/pascalandy)
 - `ru` —  Russian - By [Partizan007](https://github.com/partizan007)
 
-![simply theme ghost Language](./documentation/language.jpg)
+![Sous La Pluie theme ghost Language](./documentation/language.jpg)
 
 if you want to have in another language you just have to copy `locales>en.json` and rename the file then translate to your favorite language:
 
@@ -592,7 +514,7 @@ Just enter the [language/locale tag](https://www.w3schools.com/tags/ref_language
 
 ## AMP
 
-> Simply has a nice page for AMP
+> Sous La Pluie has a nice page for AMP
 
 - Navigation
 - links to followers in social media
@@ -600,7 +522,7 @@ Just enter the [language/locale tag](https://www.w3schools.com/tags/ref_language
 - Related Articles (6 articles)
 - Buttons to share the article (Facebook - Twitter - Whatsapp)
 
-To customize the AMP page [read here](https://github.com/godofredoninja/Hodor-AMP-Ghost)
+To customize the AMP page [read here](https://github.com/antidotefredoninja/Hodor-AMP-Ghost)
 
 ## Change Theme Color
 
@@ -608,7 +530,7 @@ To customize the AMP page [read here](https://github.com/godofredoninja/Hodor-AM
 
 ![ghost themes colors](./documentation/colors.jpg)
 
-To change the color of the Simply theme select one of the theme styles below and copy it into the:
+To change the color of the Sous La Pluie theme select one of the theme styles below and copy it into the:
 
 :arrow_right: `Setting -> Code Injection -> Blog Header`
 
@@ -626,7 +548,7 @@ To change the color of the Simply theme select one of the theme styles below and
 
 ## Tracking Google Tag Mananger
 
-Simply keeps track of the user's actions on the page, for example:
+Sous La Pluie keeps track of the user's actions on the page, for example:
 
 - Header
   - Click Logo
@@ -696,20 +618,20 @@ With [Google Tag Manager](https://tagmanager.google.com), there are a million di
 ```html
 <script>
 /* Tracking With Google Tag Mananger */
-var godoTracking = document.querySelectorAll('.godo-tracking');
-godoTracking.forEach(function(item) {
+var antidoteTracking = document.querySelectorAll('.antidote-tracking');
+antidoteTracking.forEach(function(item) {
   item.addEventListener('click', function() {
-    var godoCategory = this.getAttribute('data-event-category');
-    var godoAction = this.getAttribute('data-event-action');
-    var godoLabel = this.getAttribute('data-event-label');
-    var godoValue = this.getAttribute('data-event-non-interaction');
+    var antidoteCategory = this.getAttribute('data-event-category');
+    var antidoteAction = this.getAttribute('data-event-action');
+    var antidoteLabel = this.getAttribute('data-event-label');
+    var antidoteValue = this.getAttribute('data-event-non-interaction');
 
     dataLayer.push({
-      'event' : 'godoGhostEvent',
-      'eventCategory' : godoCategory,
-      'eventAction' : godoAction,
-      'eventLabel' : godoLabel,
-      'eventValue' : godoValue,
+      'event' : 'antidoteGhostEvent',
+      'eventCategory' : antidoteCategory,
+      'eventAction' : antidoteAction,
+      'eventLabel' : antidoteLabel,
+      'eventValue' : antidoteValue,
     });
   });
 });
@@ -723,11 +645,11 @@ PrismJS allows you to select which languge you embeded and performs code highlig
 
 Take a look at the [Prismjs Supported Language List](http://prismjs.com/#languages-list)
 
-![Simply Prismjs](./documentation/prismjs.jpg)
+![Sous La Pluie Prismjs](./documentation/prismjs.jpg)
 
 ### Credits
 
-- [Hodor AMP](https://github.com/godofredoninja/Hodor-AMP-Ghost)
+- [Hodor AMP](https://github.com/antidotefredoninja/Hodor-AMP-Ghost)
 - [Normalize](https://necolas.github.io/normalize.css/)
 - [Ghost Search](https://github.com/HauntedThemes/ghost-search)
 - [Prismjs](http://prismjs.com/)
@@ -739,5 +661,5 @@ Take a look at the [Prismjs Supported Language List](http://prismjs.com/#languag
 
 ## Copyright & License
 
-Copyright (c) 2017-2019 GodoFredo - Released under the [GPLv3 license](LICENSE)
+Copyright (c) 2017-2019 antidoteFredo - Released under the [GPLv3 license](LICENSE)
 # SousLaPluie

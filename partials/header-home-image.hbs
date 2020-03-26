@@ -35,7 +35,7 @@
     <div class="header-wrap u-flexCenter  u-maxWidth1100 u-marginAuto u-flex1">
         {{!-- Logo --}}
         <div class="header-left u-flex0 {{#is "home"}}u-hide-after-lg{{/is}}">
-            <a class="header-logo u-block u-lineHeight1 godo-tracking" href="{{@site.url}}" data-event-category="Header" data-event-action="Logo" data-event-label="Click" data-event-non-interaction="true">
+            <a class="header-logo u-block u-lineHeight1 antidote-tracking" href="{{@site.url}}" data-event-category="Header" data-event-action="Logo" data-event-label="Click" data-event-non-interaction="true">
                 {{#if @site.logo}}
                     <img src="{{img_url @site.logo size="m"}}" alt="{{@site.title}}"/>
                 {{else}}
@@ -56,7 +56,7 @@
             {{> "widget/social-media"}}
 
             {{!-- Toggle Searcg --}}
-            <a href="#" aria-label="Search" class="js-search-open nav-search godo-tracking u-pointer u-hide" data-event-category="Header" data-event-action="Search" data-event-label="Click" data-event-non-interaction="true">
+            <a href="#" aria-label="Search" class="js-search-open nav-search antidote-tracking u-pointer u-hide" data-event-category="Header" data-event-action="Search" data-event-label="Click" data-event-non-interaction="true">
                 <svg class="icon icon--search icon--md"><use xlink:href="#icon-search"></use></svg>
             </a>
             {{!-- Toggle Menu --}}
