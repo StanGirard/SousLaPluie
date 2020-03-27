@@ -7,7 +7,7 @@
 <div class="site-post feed-entry-content">
     <div class="feed-entry-wrap u-maxWidth1100 container">
         <div class="row">
-            {{#get "posts" filter="tag:-hash-podcast"}}
+            {{#get "posts"}}
             {{#foreach posts visibility="all"}}
                 {{#has number="1"}}
                     <div class="col s12 m6 l12 ss1">{{> "story/story-grid" }}</div>
