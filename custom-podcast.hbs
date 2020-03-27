@@ -8,7 +8,30 @@
 
 <article class="post u-marginBottom40 u-relative">
     {{!-- Article Header - paertials/article/article-header.hbs --}}
-    {{> "article/article-header"}}
+    <section class="spc-header u-relative u-overflowHidden u-bgDark">
+        <img class="u-absolute u-image u-block blur-up lazyload" src="/content/images/size/w600/2020/03/microphone.jpg" srcset="/content/images/size/w30/2020/03/microphone.jpg" data-srcset="/content/images/size/w300/2020/03/microphone.jpg 300w,
+            /content/images/size/w600/2020/03/microphone.jpg 600w,
+            /content/images/size/w1000/2020/03/microphone.jpg 1000w,
+            /content/images/size/w2000/2020/03/microphone.jpg 2000w" data-sizes="(max-width: 800px) 400px, (max-width: 1170px) 700px, 1400px" alt="Sous La Pluie" />
+
+        <div class="spc-h-inner u-textColorWhite u-maxWidth1040 u-container u-relative zindex3 u-textAlignCenter">
+            <h1 class="spc-h-t animated bounceIn">{{title}}</h1>
+            <p class="spc-h-e">Podcast</p>
+            <div class="spc-buttons">
+                <a href="https://open.spotify.com/show/2sYb9oXWgYjKxIkFTzzuyy">
+                    <img src="https://souslapluie.fr/assets/images/spotify-logo.png" style="height:15px" alt="Spotify Icon"
+                        rel="presentation" />
+                    <span>Spotify</span>
+                </a>
+                <a href="https://anchor.fm/souslapluie">
+                    <img src="https://souslapluie.fr/assets/images/icon-rss.png" style="height:15px" alt="RSS Icon"
+                        rel="presentation" />
+                    <span>RSS</span>
+                </a>
+            </div>
+        </div>
+
+    </section>
 
     <div class="post-wrap u-maxWidth1000 u-relative u-marginAuto">
         {{!-- All Content --}}
@@ -22,17 +45,14 @@
         <hr>
         <div class="prev-next">
             {{#get "posts" filter="tags:{{primary_tag.slug}}+id:>{{id}}" limit="1"order="id asc"}}
-                {{#foreach posts}}
-                    {{> "story/story-previous-next" storyTitle=(t "Next article") class="u-marginBottom30"}}
-                {{/foreach}}
+            {{#foreach posts}}
+            {{> "story/story-previous-next" storyTitle=(t "Next article") class="u-marginBottom30"}}
+            {{/foreach}}
             {{/get}}
-            {{#get "posts" filter="tags:{{primary_tag.slug}}+id:<{{id}}" limit="1" order="id desc"}}
-                {{#foreach posts}}
-                    {{> "story/story-previous-next" storyTitle=(t "Previous article") class=""}}
-                {{/foreach}}
-            {{/get}}
-        </div>
-        <hr>
+            {{#get "posts" filter="tags:{{primary_tag.slug}}+id:<{{id}}" limit="1" order="id desc" }} {{#foreach posts}}
+                {{> "story/story-previous-next" storyTitle=(t "Previous article") class=""}} {{/foreach}} {{/get}}
+                </div>
+                <hr>
     </footer>
 </article>
 
@@ -41,9 +61,9 @@
 
 
 {{#post}}
-    {{!-- post Commets --}}
-    {{> "article/article-comments"}}
+{{!-- post Commets --}}
+{{> "article/article-comments"}}
 
-    {{!-- Share Article - Facebook Twitter Whatsapp --}}
-    {{> "article/article-share-sticky"}}
+{{!-- Share Article - Facebook Twitter Whatsapp --}}
+{{> "article/article-share-sticky"}}
 {{/post}}
