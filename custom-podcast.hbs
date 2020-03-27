@@ -44,14 +44,13 @@
 
         <hr>
         <div class="prev-next">
-            {{#get "posts" filter="tags:{{primary_tag.slug}}+id:>{{id}}" limit="1"order="id asc"}}
-            {{#foreach posts}}
-            {{> "story/story-previous-next" storyTitle=(t "Next article") class="u-marginBottom30"}}
-            {{/foreach}}
-            {{/get}}
-            {{#get "posts" filter="tags:{{primary_tag.slug}}+id:<{{id}}" limit="1" order="id desc" }} {{#foreach posts}}
-                {{> "story/story-previous-next" storyTitle=(t "Previous article") class=""}} {{/foreach}} {{/get}}
-                </div>
+            {{#next_post in="primary_tag"}}
+                    {{> "story/story-previous-next" storyTitle=(t "Next article") class="u-marginBottom30"}}
+            {{/next_post}}
+            {{#prev_post in="primary_tag"}}
+                    {{> "story/story-previous-next" storyTitle=(t "Previous article") class=""}}
+            {{/prev_post}}
+        </div>
                 <hr>
     </footer>
 </article>
