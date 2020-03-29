@@ -44,14 +44,18 @@
 
         <hr>
         <div class="prev-next">
-            {{#next_post in="primary_tag"}}
+            {{#get "posts" filter="tags:[hash-podcast]+id:>{{id}}" limit="1"order="id asc"}}
+                {{#foreach posts}}
                     {{> "story/story-previous-next" storyTitle=(t "Next article") class="u-marginBottom30"}}
-            {{/next_post}}
-            {{#prev_post in="primary_tag"}}
+                {{/foreach}}
+            {{/get}}
+            {{#get "posts" filter="tags:[hash-podcast]+id:<{{id}}" limit="1" order="id desc"}}
+                {{#foreach posts}}
                     {{> "story/story-previous-next" storyTitle=(t "Previous article") class=""}}
-            {{/prev_post}}
+                {{/foreach}}
+            {{/get}}
         </div>
-                <hr>
+        <hr>
     </footer>
 </article>
 
