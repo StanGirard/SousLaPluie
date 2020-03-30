@@ -2,7 +2,7 @@
     "name": "souslapluie",
     "description": "Sous La Pluie Theme",
     "demo": "https://souslapluie.fr",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "engines": {
         "ghost": ">=3.0.0",
         "ghost-api": "v3"
