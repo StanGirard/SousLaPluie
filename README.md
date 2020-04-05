@@ -1,11 +1,6 @@
 # Sous La Pluie
 
 
-
-## Web Browser Support for Sous La Pluie
-
-Sous La Pluie supports the following web [browsers](http://caniuse.com/#search=flexbox).
-
 ## Ghost Settings
 
 Enable the following checkbox on the Labs page in the Ghost admin panel.
