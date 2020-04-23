@@ -1,10 +1,5 @@
 # Sous La Pluie
-
-
-
-## Web Browser Support for Sous La Pluie
-
-Sous La Pluie supports the following web [browsers](http://caniuse.com/#search=flexbox).
+[Sous La Pluie](https://souslapluie.fr)
 
 ## Ghost Settings
 
