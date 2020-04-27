@@ -27,22 +27,6 @@ var followSocialMedia = {
   'github': ['YOUR_URL','YOUR_TITLE'],
   'linkedin': ['YOUR_URL','YOUR_TITLE'],
   'rss': ['YOUR_URL','YOUR_TITLE'],
-
-  /*
-  'snapchat': ['YOUR_URL','YOUR_TITLE'],
-  'dribbble': ['YOUR_URL','YOUR_TITLE'],
-  'spotify': ['YOUR_URL','YOUR_TITLE'],
-  'codepen': ['YOUR_URL','YOUR_TITLE'],
-  'behance': ['YOUR_URL','YOUR_TITLE'],
-  'flickr': ['YOUR_URL','YOUR_TITLE'],
-  'telegram': ['YOUR_URL','YOUR_TITLE'],
-  'vimeo': ['YOUR_URL','YOUR_TITLE'],
-  'twitch': ['YOUR_URL','YOUR_TITLE'],
-  'vk': ['YOUR_URL','YOUR_TITLE'],
-  'slack': ['YOUR_URL','YOUR_TITLE'],
-  'tumblr': ['YOUR_URL','YOUR_TITLE'],
-  'discord': ['YOUR_URL','YOUR_TITLE'],
-  */
 };
 </script>
 ```
